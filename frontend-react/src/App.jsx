@@ -1,6 +1,7 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import { FaLinkedin, FaGithub } from 'react-cons/fa';
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './App.css';
+import './style/navBar.css';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
@@ -10,6 +11,7 @@ function App() {
         <Router>
             <header>
                 <h1><Link to="/">Alice Barnes</Link></h1>
+                <p>Web Developer & Technical Writer</p>
             </header>
 
             <nav>

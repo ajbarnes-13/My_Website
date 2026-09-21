@@ -1,0 +1,17 @@
+:root {
+    --background-color: rgb(6, 46, 6);
+    --body-text-color: rgb(220, 255, 222);
+    --button-hover-color: limegreen;
+    --socials-button-color: rgb(220, 255, 222);
+    --button-text-color: rgb(220, 255, 222);
+    --button-hover-text-color: rgb(6, 46, 6);
+    --header-footer-color: rgb(6, 46, 6);
+    --header-footer-text-color: rgb(220, 255, 222);
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: var(--body-text-color);
+    background-color: var(--background-color);
+
+}

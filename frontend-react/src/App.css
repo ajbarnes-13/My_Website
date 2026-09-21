@@ -1,0 +1,27 @@
+header {
+    background-color: var(--header-footer-color);
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--header-footer-text-color)
+}
+
+header h1 a:hover {
+    color: var(--button-hover-color);
+}
+
+footer {
+    background-color: var(--header-footer-color);
+    color: var(--header-footer-text-color);
+}
+
+footer a {
+    color: var(--header-footer-text-color);
+    margin: 10px;
+}
+
+footer a:hover {
+    color: var(--button-hover-color);
+    margin: 10px;
+}
