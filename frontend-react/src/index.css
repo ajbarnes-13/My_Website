@@ -2,6 +2,7 @@
     --body-text-color: rgb(220, 255, 222);
     --button-hover-color: rgb(220, 255, 222);
     --socials-button-color: rgb(220, 255, 222);
+    --link-hover-color: salmon;
     --button-text-color: rgb(220, 255, 222);
     --button-hover-text-color: rgb(6, 46, 6);
     --header-footer-color: rgb(6, 46, 6);
@@ -18,4 +19,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
+}
+
+button, input, textarea, select { 
+    font-family: inherit; 
 }

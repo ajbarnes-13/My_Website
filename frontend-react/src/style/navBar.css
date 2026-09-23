@@ -20,7 +20,7 @@ nav a[aria-current="page"] {
 
 nav a:hover {
     color: var(--button-hover-text-color);
-    background-color: rgb(from var(--button-hover-color) r g b / 50%);
+    background-color: rgb(from var(--link-hover-color) r g b / 50%);
     border-radius: 9999px;
     margin: 10px;
     padding: 10px 20px;

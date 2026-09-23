@@ -27,6 +27,8 @@
 
 .resume-header a:hover {
     font-style: italic;
+    font-weight: bold;
+    color: var(--link-hover-color);
 }
 
 .professional-summary h4 {
@@ -127,6 +129,16 @@
 .technical-projects h4,
 .technical-projects p {
     margin: 8px;
+}
+
+.technical-projects a {
+    text-decoration: none;
+    color: var(--container-text-color);
+}
+
+.technical-projects a:hover {
+    color: var(--link-hover-color);
+    font-style: italic;
 }
 
 .professional-experience h4 {

@@ -47,7 +47,7 @@ function Resume () {
 
             <section className="technical-projects">
                 <h4>TECHNICAL PROJECTS:</h4>
-                <p><strong>Full-Stack Web Application: Dr. Meow Meow</strong> | <em>JavaScript, React, HTML, CSS, 
+                <p><strong>Full-Stack Web Application: <a href="https://drmeowmeow.up.railway.app/" target="_blank" rel="noopener noreferrer">Dr. Meow Meow</a></strong> | <em>JavaScript, React, HTML, CSS, 
                     Node.js, Express, MySQL</em> | August 2026 – Present</p>
                 <p>•	Architected and deployed a full-stack web application featuring user authentication, state 
                     management, and responsive UI components.</p>

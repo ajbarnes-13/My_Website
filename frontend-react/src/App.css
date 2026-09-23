@@ -10,7 +10,8 @@ header h1 a {
 }
 
 header h1 a:hover {
-    color: var(--button-hover-color);
+    color: var(--link-hover-color);
+    font-style: italic;
 }
 
 footer {
@@ -26,6 +27,6 @@ footer a {
 }
 
 footer a:hover {
-    color: var(--button-hover-color);
+    color: var(--link-hover-color);
     margin: 10px;
 }
