@@ -1,5 +1,7 @@
 header {
-    background-color: var(--header-footer-color);
+    background-color: rgb(from var(--header-footer-color) r g b / 70%);
+    border-radius: 20px;
+    padding: 15px;
 }
 
 header h1 a {
@@ -12,8 +14,10 @@ header h1 a:hover {
 }
 
 footer {
-    background-color: var(--header-footer-color);
+    background-color: rgb(from var(--header-footer-color) r g b / 70%);
     color: var(--header-footer-text-color);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 footer a {

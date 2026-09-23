@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Link, NavLink, useNavigate } from 'react-router-dom';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import './App.css';
 import './style/navBar.css';
@@ -11,14 +11,13 @@ function App() {
         <Router>
             <header>
                 <h1><Link to="/">Alice Barnes</Link></h1>
-                <p>Web Developer & Technical Writer</p>
+                <p><em>Web Engineer & Technical Writer</em></p>
+                <nav>
+                    <NavLink to="/" end>Home</NavLink>
+                    <NavLink to="/portfolio">Portfolio</NavLink>
+                    <NavLink to="/resume">Resume</NavLink>
+                </nav>
             </header>
-
-            <nav>
-                <Link to="/">Home</Link>
-                <Link to="/portfolio">Portfolio</Link>
-                <Link to="/resume">Resume</Link>
-            </nav>
 
             <main>
                 <Routes>

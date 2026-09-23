@@ -1,0 +1,21 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.home a {
+    color: var(--container-text-color);
+    font-weight: bold;
+}
+
+.home a:hover {
+    font-weight: bold;
+    font-style: italic;
+}

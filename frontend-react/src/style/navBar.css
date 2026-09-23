@@ -1,6 +1,11 @@
+nav {
+    display: flex;
+    justify-content: center;
+}
+
 nav a {
     display: inline-block;
-    background-color: var(--background-color);
+    background-color: transparent;
     border: none;
     border-radius: 9999px;
     margin: 10px;
@@ -9,9 +14,13 @@ nav a {
     color: var(--button-text-color);
 }
 
+nav a[aria-current="page"] {
+    font-style: italic;
+}
+
 nav a:hover {
     color: var(--button-hover-text-color);
-    background-color: var(--button-hover-color);
+    background-color: rgb(from var(--button-hover-color) r g b / 50%);
     border-radius: 9999px;
     margin: 10px;
     padding: 10px 20px;

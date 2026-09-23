@@ -1,0 +1,155 @@
+.resume-header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.resume-header h3,
+.resume-header h4,
+.resume-header p {
+    margin: 5px;
+}
+
+.resume-header a {
+    text-decoration: none;
+    color: var(--container-text-color);
+    padding-top: 0;
+}
+
+.resume-header a:hover {
+    font-style: italic;
+}
+
+.professional-summary h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.professional-summary {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+    }
+
+.professional-summary h4,
+.professional-summary p {
+    margin: 8px;
+}
+
+.education h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.education {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.education h4,
+.education p {
+    margin: 8px;
+}
+
+.technical-skills h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.technical-skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.technical-skills h4,
+.technical-skills p {
+    margin: 8px;
+}
+
+.technical-projects h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.technical-projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.technical-projects h4,
+.technical-projects p {
+    margin: 8px;
+}
+
+.professional-experience h4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.professional-experience {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    max-width: 700px;
+    width: 90%;
+    margin: 20px auto 0;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.professional-experience h4,
+.professional-experience p {
+    margin: 8px;
+}

@@ -1,17 +1,21 @@
 :root {
-    --background-color: rgb(6, 46, 6);
     --body-text-color: rgb(220, 255, 222);
-    --button-hover-color: limegreen;
+    --button-hover-color: rgb(220, 255, 222);
     --socials-button-color: rgb(220, 255, 222);
     --button-text-color: rgb(220, 255, 222);
     --button-hover-text-color: rgb(6, 46, 6);
     --header-footer-color: rgb(6, 46, 6);
     --header-footer-text-color: rgb(220, 255, 222);
+    --container-color: rgb(220, 255, 222);
+    --container-text-color: rgb(6, 46, 6);
 }
 
 body {
     font-family: 'Lato', sans-serif;
     color: var(--body-text-color);
-    background-color: var(--background-color);
-
+    background-image: url('/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
