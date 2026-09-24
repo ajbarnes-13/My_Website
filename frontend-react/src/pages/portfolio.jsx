@@ -20,12 +20,10 @@ function Portfolio () {
                 <p className="instructions"><strong>How To Use:</strong></p>
                 <p>Click the Dr. Meow Meow link at the top of this page, or navigate to https://drmeowmeow.up.railway.app/ and 
                     follow the on-screen prompts to make an account and login. If you don't want to make an account, you can 
-                    use the credentials below to access the site. I made this account with dummy data so potential employers could 
-                    access all the site's features without needing to make an account themselves. <strong>Note: </strong> For security 
-                    reasons, the ability to update the email and password for this account has been disabled. If you would like to test 
-                    out those features, you will need to make your own account.
+                    send me an email at alice.m.j.barnes@gmail.com and I will send you the credentials for a demo account to access the site. <strong>Note: </strong> 
+                    For security reasons, the ability to update the email and password for this account has been disabled. If 
+                    you would like to test out those features, you will need to make your own account.
                 </p>
-                <p className="credentials"><strong>Email: </strong>demo@thisisafakeemail.com | <strong>Password: </strong>12345A</p>
             </section>
 
             <section>
