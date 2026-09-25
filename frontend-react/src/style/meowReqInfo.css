@@ -1,15 +1,20 @@
 .dr-meow-meow-req-info {
-    display: flex;
+    max-width: 1050px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.dr-meow-meow-req-info-header,
+.dr-meow-meow-site-map-section,
+.dr-meow-meow-user-stories-section {
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(from var(--container-color) r g b / 80%);
-    color: var(--container-text-color);
-    max-width: 1000px;
-    width: 90%;
-    margin: 20px auto 20px;
-    padding: 20px;
-    border-radius: 20px;
 }
 
 .dr-meow-meow-req-info h2 {
@@ -42,7 +47,30 @@
     font-style: italic;
 }
 
-.dr-meow-meow-req-info .sitemap-image {
+.dr-meow-meow-site-map-section h3,
+.dr-meow-meow-site-map-section h4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sitemap-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     max-width: 100%;
     overflow-x: auto;
+}
+
+.user-stories-section h3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-stories-list {
+    background-color: rgb(from var(--container-color) r g b / 90%);
 }

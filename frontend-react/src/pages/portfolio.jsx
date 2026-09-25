@@ -8,6 +8,9 @@ function Portfolio () {
             <section className="dr-meow-meow">
                 <h3><a href="https://drmeowmeow.up.railway.app/" target="_blank" rel="noopener noreferrer">Dr. Meow Meow</a></h3>
                 
+                <img src="/dr_meow_meow_mascot_favicon.png" alt="A kawaii siamese cat dressed as a doctor. This is the mascot for Dr. 
+                Meow Meow. Image created with Google Gemini because I am not an artist." width="100" />
+
                 <nav className="sub-menu">
                     <NavLink to="/portfolio/meowReqInfo">Requirements</NavLink>
                     <NavLink to="/portfolio/meowDbArch">DB Architecture</NavLink>

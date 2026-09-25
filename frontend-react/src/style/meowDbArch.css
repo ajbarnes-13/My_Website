@@ -1,0 +1,52 @@
+.dr-meow-meow-db-arch {
+    max-width: 1000px;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.dr-meow-meow-db-arch-header,
+.dr-meow-meow-erd-section {
+    background-color: rgb(from var(--container-color) r g b / 80%);
+    color: var(--container-text-color);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dr-meow-meow-erd-section p {
+    align-self: stretch;
+}
+
+.dr-meow-meow-db-arch h2 {
+    margin: 5px;
+}
+
+.dr-meow-meow-db-arch nav {
+    margin: 15px 0;
+}
+
+.dr-meow-meow-db-arch a {
+    display: inline-block;
+    background-color: rgb(from var(--header-footer-color) r g b / 50%);
+    color: var(--container-color);
+    border-radius: 9999px;
+    margin: 10px;
+    padding: 5px 12px;
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.dr-meow-meow-db-arch a:hover {
+    color: var(--container-text-color);
+    background-color: rgb(from var(--link-hover-color) r g b / 45%);
+    border-radius: 9999px;
+    font-style: italic;
+}
+
+.dr-meow-meow-db-arch a[aria-current="page"] {
+    font-style: italic;
+}

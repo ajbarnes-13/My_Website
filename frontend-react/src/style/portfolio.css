@@ -26,6 +26,10 @@
     color: var(--link-hover-color);
 }
 
+.dr-meow-meow img {
+    padding-bottom: 15px;
+}
+
 .sub-menu a {
     background-color: rgb(from var(--header-footer-color) r g b / 50%);
     color: var(--container-color);
