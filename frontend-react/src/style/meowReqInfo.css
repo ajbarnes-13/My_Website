@@ -1,48 +1,48 @@
-.dr-meow-meow {
+.dr-meow-meow-req-info {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(from var(--container-color) r g b / 80%);
     color: var(--container-text-color);
-    max-width: 700px;
+    max-width: 1000px;
     width: 90%;
-    margin: 20px auto 0;
+    margin: 20px auto 20px;
     padding: 20px;
     border-radius: 20px;
 }
 
-.dr-meow-meow h3 a,
-.dr-meow-meow p a {
-    text-decoration: none;
-    color: var(--container-text-color);
+.dr-meow-meow-req-info h2 {
+    margin: 5px;
 }
 
-.dr-meow-meow h3 a:hover,
-.dr-meow-meow p a:hover {
-    font-style: italic;
-    font-weight: bold;
-    color: var(--link-hover-color);
+.dr-meow-meow-req-info nav {
+    margin: 15px 0;
 }
 
-.sub-menu a {
+.dr-meow-meow-req-info a {
+    display: inline-block;
     background-color: rgb(from var(--header-footer-color) r g b / 50%);
     color: var(--container-color);
     border-radius: 9999px;
-    margin: 5px;
+    margin: 10px;
     padding: 5px 12px;
     font-size: 0.85rem;
     text-decoration: none;
 }
 
-.sub-menu a:hover {
+.dr-meow-meow-req-info a:hover {
     color: var(--container-text-color);
     background-color: rgb(from var(--link-hover-color) r g b / 45%);
     border-radius: 9999px;
     font-style: italic;
 }
 
-.instructions {
-    margin-bottom: 0px;
+.dr-meow-meow-req-info a[aria-current="page"] {
+    font-style: italic;
+}
+
+.dr-meow-meow-req-info .sitemap-image {
+    max-width: 100%;
+    overflow-x: auto;
 }

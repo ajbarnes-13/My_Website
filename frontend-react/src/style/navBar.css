@@ -1,9 +1,9 @@
-nav {
+.main-nav {
     display: flex;
     justify-content: center;
 }
 
-nav a {
+.main-nav a {
     display: inline-block;
     background-color: transparent;
     border: none;
@@ -14,11 +14,11 @@ nav a {
     color: var(--button-text-color);
 }
 
-nav a[aria-current="page"] {
+.main-nav a[aria-current="page"] {
     font-style: italic;
 }
 
-nav a:hover {
+.main-nav a:hover {
     color: var(--button-hover-text-color);
     background-color: rgb(from var(--link-hover-color) r g b / 50%);
     border-radius: 9999px;

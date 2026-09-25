@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, NavLink } from 'react-router-dom';
 import '../style/portfolio.css';
 
 function Portfolio () {
@@ -7,6 +7,12 @@ function Portfolio () {
         <>
             <section className="dr-meow-meow">
                 <h3><a href="https://drmeowmeow.up.railway.app/" target="_blank" rel="noopener noreferrer">Dr. Meow Meow</a></h3>
+                
+                <nav className="sub-menu">
+                    <NavLink to="/portfolio/meowReqInfo">Requirements</NavLink>
+                    <NavLink to="/portfolio/meowDbArch">DB Architecture</NavLink>
+                </nav>
+
                 <p><a href="https://drmeowmeow.up.railway.app/" target="_blank" rel="noopener noreferrer">Dr. Meow Meow </a> 
                 is a full-stack pet health and behavior tracking app, built with React on the frontend, a Node.js/Express REST API 
                 on the backend, and a MySQL database, with Firebase handling authentication. The idea started with my cat, Sunny 

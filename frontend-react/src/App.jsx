@@ -5,6 +5,8 @@ import './style/navBar.css';
 import Home from './pages/home';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
+import MeowReqInfo from './pages/meowReqInfo';
+import MeowDbArch from './pages/meowDbArch';
 
 function App() {
     return (
@@ -12,7 +14,7 @@ function App() {
             <header>
                 <h1><Link to="/">Alice Barnes</Link></h1>
                 <p><em>Web Engineer & Technical Writer</em></p>
-                <nav>
+                <nav className="main-nav">
                     <NavLink to="/" end>Home</NavLink>
                     <NavLink to="/portfolio">Portfolio</NavLink>
                     <NavLink to="/resume">Resume</NavLink>
@@ -24,6 +26,8 @@ function App() {
                     <Route path="/" element={<Home/>} />
                     <Route path="/portfolio" element={<Portfolio/>} />
                     <Route path="/resume" element={<Resume/>} />
+                    <Route path="/portfolio/meowReqInfo" element={<MeowReqInfo/>} />
+                    <Route path="/portfolio/meowDbArch" element={<MeowDbArch/>} />
                 </Routes>
             </main>
 
