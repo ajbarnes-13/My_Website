@@ -6,7 +6,7 @@ function DbArch() {
     return (
         <section className="dr-meow-meow-db-arch">
             <header className="dr-meow-meow-db-arch-header">
-                <h2>Dr. Meow Meow</h2>
+                <h2><a href="https://drmeowmeow.up.railway.app/" target="_blank" rel="noopener noreferrer">Dr. Meow Meow</a></h2>
                 <h2>Database Architecture</h2>
 
                 <nav>
