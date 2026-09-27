@@ -11,7 +11,7 @@ function Resume () {
                 <p>785-218-7952 • alice.m.j.barnes@gmail.com • Lawrence, KS • 
                     <a href="https://alicebarnes.vercel.app/"> My Website </a> • 
                     <a href="https://github.com/ajbarnes-13" target="_blank" rel="noopener noreferrer"> Github</a> •
-                    <a href="www.linkedin.com/in/alice-barnes-9a02b7167" target="_blank" rel="noopener noreferrer"> LinkedIn</a></p>
+                    <a href="https://linkedin.com/in/alice-barnes-9a02b7167" target="_blank" rel="noopener noreferrer"> LinkedIn</a></p>
             </section>
 
             <section className="professional-summary">
