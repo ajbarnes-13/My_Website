@@ -13,7 +13,8 @@ function App() {
         <Router>
             <header>
                 <h1><Link to="/">Alice Barnes</Link></h1>
-                <p><em>Web Engineer & Technical Writer</em></p>
+                <h4>Full-Stack Web Engineer</h4>
+                <p><em>JavaScript </em> | <em> SQL </em> | <em> HTML </em> | <em> CSS </em> | <em> Python</em></p>
                 <nav className="main-nav">
                     <NavLink to="/" end>Home</NavLink>
                     <NavLink to="/portfolio">Portfolio</NavLink>
