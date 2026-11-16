@@ -28,11 +28,13 @@ function Portfolio () {
                 relying on faulty memory or scattered notes.
                 </p>
                 <p className="instructions"><strong>How To Use:</strong></p>
-                <p>Click the Dr. Meow Meow link at the top of this page, or navigate to https://drmeowmeow.up.railway.app/ and 
-                    follow the on-screen prompts to make an account and login. If you don't want to make an account, you can 
-                    send me an email at alice.m.j.barnes@gmail.com and I will send you the credentials for a demo account to access the site. <strong>Note: </strong> 
-                    For security reasons, the ability to update the email and password for this account has been disabled. If 
-                    you would like to test out those features, you will need to make your own account.
+                <p>To look around without making an account, open the{' '}
+                    <a href="https://drmeowmeow.up.railway.app/demo" target="_blank" rel="noopener noreferrer">Dr. Meow Meow demo</a>.
+                    It signs you straight into a shared demo account with sample pets already set up, no login needed. <strong>Note: </strong>
+                    Because the demo account is shared, changing its email or password and deleting the account are disabled.
+                </p>
+                <p>To try those features, or to start tracking your own pets, click the Dr. Meow Meow link at the top of this page,
+                    or go to https://drmeowmeow.up.railway.app/, and follow the on-screen prompts to make your own account.
                 </p>
             </section>
 
